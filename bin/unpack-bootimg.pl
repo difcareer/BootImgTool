@@ -54,6 +54,6 @@ if (-e "$ARGV[0]-ramdisk") {
 
 mkdir "$ARGV[0]-ramdisk" or die;
 chdir "$ARGV[0]-ramdisk" or die;
-system ("gunzip -c ../$ARGV[0]-ramdisk.cpio.gz | cpio -i");
+system ("gunzip -c $ARGV[0]-ramdisk.cpio.gz | cpio -i");
 
 print "\nextracted ramdisk contents to directory $ARGV[0]-ramdisk/\n";
