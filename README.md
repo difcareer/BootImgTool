@@ -25,3 +25,6 @@ bin/unpack-bootimg.sh path/of/boot.img
 ```
 bin/repack-bootimg.sh kernel ramdisk-dir out-file
 ```
+
+# Article
+https://www.jianshu.com/p/aaa2fd8bd2b5
